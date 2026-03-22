@@ -1,0 +1,33 @@
+{
+    "success": true,
+    "message": "Presentation generated successfully",
+    "data": {
+        "presentationId": "prs_8f92a1b",
+        "theme": "Modern Corporate",
+        "slides": [
+            {
+                "slideNumber": 1,
+                "layout": "TitleSlide",
+                "content": {
+                    "title": "The Impact of AI in Healthcare",
+                    "subtitle": "Transforming Patient Care and Diagnostics"
+                }
+            },
+            {
+                "slideNumber": 2,
+                "layout": "ChartSlide",
+                "content": {
+                    "title": "Growth of AI Adoption",
+                    "bullets": [
+                        "75% of healthcare executives expect AI to transform their industry.",
+                        "Investment in AI diagnostics has tripled since 2020."
+                    ],
+                    "suggestedChart": {
+                        "type": "BarChart",
+                        "dataSource": "ai_adoption_metrics"
+                    }
+                }
+            }
+        ]
+    }
+}
